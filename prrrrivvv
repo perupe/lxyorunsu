@@ -78,7 +78,7 @@
 local mouse = player:GetMouse()
 
 mouse.KeyDown:Connect(function(key)
-    if key == "t" then
+    if key == "y" then
         if DaHoodSettings.SilentAim == false then
         DaHoodSettings.SilentAim = true
         else
